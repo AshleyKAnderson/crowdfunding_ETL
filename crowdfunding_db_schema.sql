@@ -10,8 +10,8 @@ CREATE TABLE "campaign" (
     "contact_id" int   NOT NULL,
     "company_name" varchar   NOT NULL,
     "description" varchar   NOT NULL,
-    "goal" int   NOT NULL,
-    "pledged" int   NOT NULL,
+    "goal" numeric   NOT NULL,
+    "pledged" numeric   NOT NULL,
     "outcome" varchar   NOT NULL,
     "backers_count" int   NOT NULL,
     "country" varchar   NOT NULL,
@@ -60,3 +60,4 @@ REFERENCES "category" ("category_id");
 ALTER TABLE "campaign" ADD CONSTRAINT "fk_campaign_subcategory_id" FOREIGN KEY("subcategory_id")
 REFERENCES "subcategory" ("subcategory_id");
 
+SELECT category
