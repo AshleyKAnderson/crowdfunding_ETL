@@ -21,23 +21,23 @@ We will execute an ETL pipeline on a crowdfunding dataset containing backer info
 
 ## Creating the Category and Subcategory DataFrames
 
--- import crowdfunding.xlsx
---make a "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories.
---make a "category" column that contains only the category titles.
---export DataFrame as **category.csv**
---do the same actions for “subcategory”
---export DataFrame as **subcategory.csv**.
+* import crowdfunding.xlsx
+* make a "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories.
+* make a "category" column that contains only the category titles.
+* export DataFrame as **category.csv**
+* do the same actions for “subcategory”
+* export DataFrame as **subcategory.csv**.
 
 ## Create the Campaign DataFrame:
---rename column titles, convert data type to “float”, convert UTC times to “datetime” format, merge Category and Subcategory Dataframes into the Campaign DataFrame.
---export DataFrame as **campaign.csv**.
+* rename column titles, convert data type to “float”, convert UTC times to “datetime” format, merge Category and Subcategory Dataframes into the Campaign DataFrame.
+* export DataFrame as **campaign.csv**.
 
 ## Create the Contacts DataFrame
---import contacts.xlsx
---iterate through the Dataframe, converting each row to a dictionary
---iterate through each dictionary to:
-		-extract dictionary values from the keys using Python list comprehension
-		-add the values for each row to a new list
+* import contacts.xlsx
+* iterate through the Dataframe, converting each row to a dictionary
+* iterate through each dictionary to:
+  * extract dictionary values from the keys using Python list comprehension
+  * add the values for each row to a new list
 --create new DataFrame that contains extracted data.
 --split each “name” column value into a first and last name and place each in a new column.
 --clean Dataframe, by reordering and dropping columms
