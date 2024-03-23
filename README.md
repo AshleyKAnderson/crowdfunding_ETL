@@ -41,7 +41,7 @@ We will execute an ETL pipeline on a crowdfunding dataset containing backer info
 * create new DataFrame that contains extracted data.
 * split each “name” column value into a first and last name and place each in a new column.
 * clean Dataframe, by reordering and dropping columms
-* export DataFrame as **contacts.csv**
+* export DataFrame as **[contacts.csv](https://github.com/AshleyKAnderson/crowdfunding_ETL/blob/0d4abb8dcdccb92665dd0449f13e404afc3f4412/Resources/contacts.csv)**
 
 ## Create the Crowdfunding Database:
 * inspect the four .csv files create and sketch an ERD of the tables using QuickDBD
