@@ -30,7 +30,7 @@ We will execute an ETL pipeline on a crowdfunding dataset containing backer info
 
 ## Create the Campaign DataFrame:
 * rename column titles, convert data type to “float”, convert UTC times to “datetime” format, merge Category and Subcategory Dataframes into the Campaign DataFrame.
-* export DataFrame as **campaign.csv**.
+* export DataFrame as **[campaign.csv](https://github.com/AshleyKAnderson/crowdfunding_ETL/blob/0d4abb8dcdccb92665dd0449f13e404afc3f4412/Resources/campaign.csv)**.
 
 ## Create the Contacts DataFrame
 * import contacts.xlsx
