@@ -24,13 +24,13 @@ We will execute an ETL pipeline on a crowdfunding dataset containing backer info
 -- import crowdfunding.xlsx
 --make a "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories.
 --make a "category" column that contains only the category titles.
---export DataFrame as category.csv
+--export DataFrame as **category.csv**
 --do the same actions for “subcategory”
---export DataFrame as subcategory.csv
+--export DataFrame as **subcategory.csv**.
 
 ## Create the Campaign DataFrame:
 --rename column titles, convert data type to “float”, convert UTC times to “datetime” format, merge Category and Subcategory Dataframes into the Campaign DataFrame.
---export DataFrame as campaign.csv.
+--export DataFrame as **campaign.csv**.
 
 ## Create the Contacts DataFrame
 --import contacts.xlsx
@@ -41,7 +41,7 @@ We will execute an ETL pipeline on a crowdfunding dataset containing backer info
 --create new DataFrame that contains extracted data.
 --split each “name” column value into a first and last name and place each in a new column.
 --clean Dataframe, by reordering and dropping columms
---export DataFrame as contacts.csv
+--export DataFrame as **contacts.csv**
 
 ## Create the Crowdfunding Database:
 --inspect the four .csv files create and sketch an ERD of the tables using QuickDBD
