@@ -38,16 +38,16 @@ We will execute an ETL pipeline on a crowdfunding dataset containing backer info
 * iterate through each dictionary to:
   * extract dictionary values from the keys using Python list comprehension
   * add the values for each row to a new list
---create new DataFrame that contains extracted data.
---split each “name” column value into a first and last name and place each in a new column.
---clean Dataframe, by reordering and dropping columms
---export DataFrame as **contacts.csv**
+* create new DataFrame that contains extracted data.
+* split each “name” column value into a first and last name and place each in a new column.
+* clean Dataframe, by reordering and dropping columms
+* export DataFrame as **contacts.csv**
 
 ## Create the Crowdfunding Database:
---inspect the four .csv files create and sketch an ERD of the tables using QuickDBD
---Use information from the ERD to create table schema for each .csv file
---Upload ERD table schema to Postgres 
---using the database schema create tables in the correct order to handle the foreign keys
---verify table creation by running a “select” statement
---import each .csv file into It’s corresponding SQL table
---verify each table has the correct data by running a “select” statement.
+* inspect the four .csv files create and sketch an ERD of the tables using QuickDBD
+* Use information from the ERD to create table schema for each .csv file
+* Upload ERD table schema to Postgres 
+* using the database schema create tables in the correct order to handle the foreign keys
+* verify table creation by running a “select” statement
+* import each .csv file into It’s corresponding SQL table
+* verify each table has the correct data by running a “select” statement.
