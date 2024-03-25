@@ -33,7 +33,7 @@ We will execute an ETL pipeline on a crowdfunding dataset containing backer info
 * export DataFrame as **[campaign.csv](https://github.com/AshleyKAnderson/crowdfunding_ETL/blob/0d4abb8dcdccb92665dd0449f13e404afc3f4412/Resources/campaign.csv)**.
 
 ## Create the Contacts DataFrame
-* import contacts.xlsx
+* import [contacts.xlsx](https://github.com/AshleyKAnderson/crowdfunding_ETL/blob/b54aae18e862025b68a7f6a5b0c1f317f1e50de8/Resources/contacts.xlsx)
 * iterate through the Dataframe, converting each row to a dictionary
 * iterate through each dictionary to:
   * extract dictionary values from the keys using Python list comprehension
