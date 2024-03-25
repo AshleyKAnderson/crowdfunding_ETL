@@ -77,5 +77,5 @@ CONTACTS TABLE VERIFY SCREENSHOT
 
 <img width="725" alt="Screenshot 2024-03-21 212015" src="https://github.com/AshleyKAnderson/crowdfunding_ETL/assets/153468339/fbf12ab3-8eb7-4c85-9fcb-242317913200">
 
-## Resources used to assist in code correction: 
+### Resources used to assist in code correction: 
 UMN Xpert Learning Assistant 
