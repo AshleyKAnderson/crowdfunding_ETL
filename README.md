@@ -50,7 +50,7 @@ We will execute an ETL pipeline on a crowdfunding dataset containing backer info
 
 * Upload ERD table schema to Postgres 
 * using the database schema create tables in the correct order to handle the foreign keys
-* <img width="732" alt="Screenshot 2024-03-21 211714" src="https://github.com/AshleyKAnderson/crowdfunding_ETL/assets/153468339/9eac77ff-1baa-482a-8af2-e621a9b99722">
+<img width="732" alt="Screenshot 2024-03-21 211714" src="https://github.com/AshleyKAnderson/crowdfunding_ETL/assets/153468339/9eac77ff-1baa-482a-8af2-e621a9b99722">
 * verify table creation by running a “select” statement
 * import each .csv file into It’s corresponding SQL table
 * verify each table has the correct data by running a “select” statement.
