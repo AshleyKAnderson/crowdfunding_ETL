@@ -46,25 +46,32 @@ We will execute an ETL pipeline on a crowdfunding dataset containing backer info
 ## Create the Crowdfunding Database:
 * inspect the four .csv files create and sketch an ERD of the tables using QuickDBD
 * Use information from the ERD to create table schema for each .csv file
+  
 ![ERD_snapshot](https://github.com/AshleyKAnderson/crowdfunding_ETL/assets/153468339/873a6d58-8593-4b66-beba-a2fbfcdba2ff)
 
 * Upload ERD table schema to Postgres 
 * using the database schema create tables in the correct order to handle the foreign keys
+  
 <img width="732" alt="Screenshot 2024-03-21 211714" src="https://github.com/AshleyKAnderson/crowdfunding_ETL/assets/153468339/9eac77ff-1baa-482a-8af2-e621a9b99722">
+
 * verify table creation by running a “select” statement
 * import each .csv file into It’s corresponding SQL table
 * verify each table has the correct data by running a “select” statement.
 
-CATEGORY TABLE VERIFY SCREENSHOT    
+CATEGORY TABLE VERIFY SCREENSHOT   
+
 <img width="732" alt="Screenshot 2024-03-21 211714" src="https://github.com/AshleyKAnderson/crowdfunding_ETL/assets/153468339/9deccab2-24a6-4ba5-987e-9b4e8a67658b">
 
 
 SUBCATEGORY TABLE VERIFY SCREENSHOT    
+
 <img width="727" alt="Screenshot 2024-03-21 211826" src="https://github.com/AshleyKAnderson/crowdfunding_ETL/assets/153468339/6b92e934-3554-448c-8140-3daaac085645">
 
-CAMPAIGN TABLE VERIFY SCREENSHOT    
+CAMPAIGN TABLE VERIFY SCREENSHOT
+
 <img width="960" alt="Screenshot 2024-03-21 211925" src="https://github.com/AshleyKAnderson/crowdfunding_ETL/assets/153468339/dd5698dc-203f-4e2e-b270-d70983d93e13">
 
-CONTACTS TABLE VERIFY SCREENSHOT    
+CONTACTS TABLE VERIFY SCREENSHOT  
+
 <img width="725" alt="Screenshot 2024-03-21 212015" src="https://github.com/AshleyKAnderson/crowdfunding_ETL/assets/153468339/fbf12ab3-8eb7-4c85-9fcb-242317913200">
 
