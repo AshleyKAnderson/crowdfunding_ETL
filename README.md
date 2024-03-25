@@ -21,7 +21,7 @@ We will execute an ETL pipeline on a crowdfunding dataset containing backer info
 
 ## Creating the Category and Subcategory DataFrames
 
-* import crowdfunding.xlsx
+* import [crowdfunding.xlsx](https://github.com/AshleyKAnderson/crowdfunding_ETL/blob/1ce2056c4dcede75abf70041a3ba831163624385/Resources/crowdfunding.xlsx)
 * make a "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories.
 * make a "category" column that contains only the category titles.
 * export DataFrame as **[category.csv](https://github.com/AshleyKAnderson/crowdfunding_ETL/blob/0d4abb8dcdccb92665dd0449f13e404afc3f4412/Resources/category.csv)**
