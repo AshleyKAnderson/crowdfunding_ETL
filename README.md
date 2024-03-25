@@ -1,6 +1,6 @@
 # crowdfunding_ETL
 ## Project Description:
-We will execute an ETL pipeline on a crowdfunding dataset containing backer information. This dataset will be migrated from an Excel file format into a PostgreSQL relational database management system (RDBMS). The ETL process will leverage Python for data extraction and transformation tasks. This includes procedures like reading the Excel file, handling potential data inconsistencies, and performing necessary data cleaning. Subsequently, SQL will be employed to load the transformed data into the PostgreSQL database. 
+We will execute an ETL pipeline on a crowdfunding dataset containing backer information. This dataset will be migrated from an Excel file format into a PostgreSQL relational database management system (RDBMS). The ETL process will use Python for data extraction and transformation tasks. This includes procedures like reading the Excel file, handling potential data inconsistencies, and performing necessary data cleaning. Subsequently, SQL will be employed to load the transformed data into the PostgreSQL database. 
 
 ## Crowdfunding ETL pipeline objectives:
 1.	Extract data by using Python and Pandas.
